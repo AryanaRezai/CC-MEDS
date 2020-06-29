@@ -10,5 +10,6 @@ import com.realpage.ui.AALogin.AALoginCucumberTest;
 @SuiteClasses(value = { AALoginCucumberTest.class})
 
 public class AAPropertyPage {
+	
 
 }

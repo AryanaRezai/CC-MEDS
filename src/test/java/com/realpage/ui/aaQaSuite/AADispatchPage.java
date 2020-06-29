@@ -9,6 +9,7 @@ import com.realpage.ui.AADispatchPage.AADispatchPageCucumberTest;
 @RunWith(value = Suite.class)
 @SuiteClasses(value = { AADispatchPageCucumberTest.class})
 
+
 public class AADispatchPage {
 
 }

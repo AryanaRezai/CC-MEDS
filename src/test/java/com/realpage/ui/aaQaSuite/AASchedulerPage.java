@@ -10,5 +10,6 @@ import com.realpage.ui.AASchedulerPage.AASchedulerPageCucumberTest;
 @SuiteClasses(value = { AASchedulerPageCucumberTest.class})
 
 public class AASchedulerPage {
+	
 
 }

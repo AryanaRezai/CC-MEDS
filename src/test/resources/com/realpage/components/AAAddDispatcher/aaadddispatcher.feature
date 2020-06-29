@@ -1,7 +1,6 @@
 Feature: Login HTML Rendering
 
   Scenario Outline: Rendering Login Page 
-  
 
    *Scenario Name: "AA: Add Dispatcher"
     Given <userName> wants to navigate the content of <pageName>
