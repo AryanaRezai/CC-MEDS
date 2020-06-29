@@ -15,6 +15,7 @@ uat: !!com.realpage.core.page.UIPage
     ConsumerWidgetPage: https://consumerwidget-uat.devplaypen.com/widget/window/?wid=l6gSG9m8NAHKW2hRrY25Wg
     LoginPagee: https://admin.rentjoy.com/login
     lpBluePage: https://staging.rentjoy.com/apartment/1050-galatyn-parkway-richardson-tx-1130385?layout=2#welcome
+    AALoginPage: https://qa-rpcc.realpage.com/Maintenance/Login.aspx
 stage: !!com.realpage.core.page.UIPage
   UIPages:
     Domain: https://www.stage.google.com/

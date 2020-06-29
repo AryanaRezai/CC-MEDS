@@ -1,0 +1,15 @@
+development: &id001 !!com.realpage.core.component.UIComponentMap
+  UIComponents:
+    aaadddispatcher:
+      UIElements:
+        dispatchername: !!com.realpage.core.component.UIElement {className: "", cssSelector: "", idSelector: "Name", name: "", xpathSelector: ""}
+        startdate: !!com.realpage.core.component.UIElement {className: null, cssSelector: "", idSelector: "raul-input-5", name: "", xpathSelector: ""}
+        dayofweek: !!com.realpage.core.component.UIElement {className: null, cssSelector: "", idSelector: "", name: "", xpathSelector: ""}
+        dissubmitbtn: !!com.realpage.core.component.UIElement {className: "dispatch-submit", cssSelector: "", idSelector: "", name: "", xpathSelector: ""}
+        errormsg: !!com.realpage.core.component.UIElement {className: "help-block", cssSelector: "", idSelector: "", name: "", xpathSelector: ""}
+        name: aaadddispatcher
+uat: *id001
+stage: *id001
+production: *id001
+development: *id001
+

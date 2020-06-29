@@ -1,0 +1,19 @@
+development: &id001 !!com.realpage.core.component.UIComponentMap
+  UIComponents:
+    aamaindashboard:
+      UIElements:
+        aadashboardheader: !!com.realpage.core.component.UIElement {className: "col-lg-12", cssSelector: "", idSelector: "", name: "", xpathSelector: ""}
+        aamainsearchf: !!com.realpage.core.component.UIElement {className: null, cssSelector: "#raul-input-0", idSelector: "", name: "", xpathSelector: ""}
+        aamainnocalls: !!com.realpage.core.component.UIElement {className: null, cssSelector: "#root > omnibar-shell > div > div.o-main > div.o-page > div.o-page-wrapper > main > div.content > div > div:nth-child(3) > div > div > div > div > div:nth-child(1) > raul-card > raul-card-title:nth-child(1) > span", idSelector: "", name: "", xpathSelector: ""}
+        aamaincapcalls: !!com.realpage.core.component.UIElement {className: null, cssSelector: "#root > omnibar-shell > div > div.o-main > div.o-page > div.o-page-wrapper > main > div.content > div > div:nth-child(3) > div > div > div > div > div:nth-child(2) > raul-card > raul-card-title:nth-child(1) > span", idSelector: "", name: "", xpathSelector: ""}
+        aamainmisscalls: !!com.realpage.core.component.UIElement {className: "", cssSelector: "#root > omnibar-shell > div > div.o-main > div.o-page > div.o-page-wrapper > main > div.content > div > div:nth-child(3) > div > div > div > div > div:nth-child(3) > raul-card > raul-card-title:nth-child(1) > span", idSelector: "", name: "", xpathSelector: ""}
+        aacallmcompliance: !!com.realpage.core.component.UIElement {className: "", cssSelector: "#root > omnibar-shell > div > div.o-main > div.o-page > div.o-page-wrapper > main > div.content > div > div:nth-child(3) > div > div > div > div > div:nth-child(4) > raul-card > raul-card-title:nth-child(1) > span", idSelector: "", name: "", xpathSelector: ""}
+        aacallaresponset: !!com.realpage.core.component.UIElement {className: "", cssSelector: "#root > omnibar-shell > div > div.o-main > div.o-page > div.o-page-wrapper > main > div.content > div > div:nth-child(3) > div > div > div > div > div:nth-child(5) > raul-card > raul-card-title:nth-child(1) > span", idSelector: "", name: "", xpathSelector: ""}
+        aamainbreakdtable: !!com.realpage.core.component.UIElement {className: null, cssSelector: "#root > omnibar-shell > div > div.o-main > div.o-page > div.o-page-wrapper > main > div.content > div > div:nth-child(4) > div > div > raul-card > raul-card-title", idSelector: "", name: "", xpathSelector: ""}
+        aamaincalltypes: !!com.realpage.core.component.UIElement {className: null, cssSelector: "#root > omnibar-shell > div > div.o-main > div.o-page > div.o-page-wrapper > main > div.content > div > div:nth-child(4) > div > div > raul-card > div > div", idSelector: "", name: "", xpathSelector: ""}
+        name: aamaindashboard
+uat: *id001
+stage: *id001
+production: *id001
+development: *id001
+
