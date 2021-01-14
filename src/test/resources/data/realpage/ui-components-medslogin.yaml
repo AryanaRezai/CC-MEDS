@@ -1,0 +1,14 @@
+development: &id001 !!com.realpage.core.component.UIComponentMap
+  UIComponents:
+    medslogin:
+      UIElements:
+        medsloginp: !!com.realpage.core.component.UIElement {className: "", cssSelector: "", idSelector: "header", name: "", xpathSelector: ""}
+        medsemailfield: !!com.realpage.core.component.UIElement {className: "", cssSelector: "", idSelector: "", name: "txtLogin", xpathSelector: ""}
+        medspasswordfield: !!com.realpage.core.component.UIElement {className: "", cssSelector: "", idSelector: "", name: "txtPwd", xpathSelector: ""}
+        medsloginbutton: !!com.realpage.core.component.UIElement {className: "", cssSelector: "", idSelector: "", name: "ctl02$btnLogin", xpathSelector: ""}
+        name: medslogin
+qa: *id001
+sat: *id001
+production: *id001
+development: *id001
+

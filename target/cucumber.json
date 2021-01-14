@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 5997962500,
+              "duration": 8953084900,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 1491516600,
+              "duration": 3471622400,
               "status": "passed"
             },
             "match": {
@@ -34,11 +34,11 @@
         "steps": [
           {
             "result": {
-              "duration": 2145882200,
+              "duration": 1510849300,
               "status": "passed"
             },
             "line": 7,
-            "name": "QA Tester wants to navigate the content of AALoginPage",
+            "name": "QA Tester wants to navigate the content of MEDSLoginPage",
             "match": {
               "arguments": [
                 {
@@ -46,7 +46,7 @@
                   "offset": 0
                 },
                 {
-                  "val": "AALoginPage",
+                  "val": "MEDSLoginPage",
                   "offset": 43
                 }
               ],
@@ -60,31 +60,31 @@
           },
           {
             "result": {
-              "duration": 145181500,
+              "duration": 142618800,
               "status": "passed"
             },
             "line": 8,
-            "name": "User have landed on AA Login Page",
+            "name": "User have landed on MEDS Login Page",
             "match": {
-              "location": "AALoginStepDefinitions.User_have_landed_on_AA_Login_Page()"
+              "location": "MEDSLoginStepDefinitions.User_have_landed_on_MEDS_Login_Page()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 971227800,
+              "duration": 952036700,
               "status": "passed"
             },
             "line": 9,
-            "name": "User enters valid AA username portfoliotestuser@test.com",
+            "name": "User enters valid MEDS username aryana.rezai@realpage.com",
             "match": {
               "arguments": [
                 {
-                  "val": "portfoliotestuser@test.com",
-                  "offset": 30
+                  "val": "aryana.rezai@realpage.com",
+                  "offset": 32
                 }
               ],
-              "location": "AALoginStepDefinitions.User_enters_valid_AA_username(String)"
+              "location": "MEDSLoginStepDefinitions.User_enters_valid_MEDS_username(String)"
             },
             "matchedColumns": [
               2
@@ -93,19 +93,19 @@
           },
           {
             "result": {
-              "duration": 188061900,
+              "duration": 178871800,
               "status": "passed"
             },
             "line": 10,
-            "name": "User enters valid AA password sz4Z8PQV",
+            "name": "User enters valid MEDS password levelone",
             "match": {
               "arguments": [
                 {
-                  "val": "sz4Z8PQV",
-                  "offset": 30
+                  "val": "levelone",
+                  "offset": 32
                 }
               ],
-              "location": "AALoginStepDefinitions.User_enters_valid_AA_password(String)"
+              "location": "MEDSLoginStepDefinitions.User_enters_valid_MEDS_password(String)"
             },
             "matchedColumns": [
               3
@@ -114,137 +114,13 @@
           },
           {
             "result": {
-              "duration": 13263663800,
+              "duration": 1417988400,
               "status": "passed"
             },
             "line": 11,
-            "name": "User clicks on AA Login Button",
+            "name": "User clicks on MEDS Login Button",
             "match": {
-              "location": "AALoginStepDefinitions.User_clicks_on_AA_Login_Button()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 1854156800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CucumberStepDefinitions.createDriverInstance()"
-            }
-          }
-        ],
-        "line": 17,
-        "name": "Rendering Login Page",
-        "description": "",
-        "id": "login-html-rendering;rendering-login-page;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 1243178300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CucumberStepDefinitions.disposeDriver(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 855835600,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "QA Tester wants to navigate the content of AALoginPage",
-            "match": {
-              "arguments": [
-                {
-                  "val": "QA Tester",
-                  "offset": 0
-                },
-                {
-                  "val": "AALoginPage",
-                  "offset": 43
-                }
-              ],
-              "location": "CucumberStepDefinitions.open_site(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 29082600,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "User have landed on AA Login Page",
-            "match": {
-              "location": "AALoginStepDefinitions.User_have_landed_on_AA_Login_Page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 845212900,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User enters valid AA username propertytestuser@test.com",
-            "match": {
-              "arguments": [
-                {
-                  "val": "propertytestuser@test.com",
-                  "offset": 30
-                }
-              ],
-              "location": "AALoginStepDefinitions.User_enters_valid_AA_username(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 162276300,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User enters valid AA password Lkdo2TuF",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Lkdo2TuF",
-                  "offset": 30
-                }
-              ],
-              "location": "AALoginStepDefinitions.User_enters_valid_AA_password(String)"
-            },
-            "matchedColumns": [
-              3
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 12240761300,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "User clicks on AA Login Button",
-            "match": {
-              "location": "AALoginStepDefinitions.User_clicks_on_AA_Login_Button()"
+              "location": "MEDSLoginStepDefinitions.User_clicks_on_MEDS_Login_Button()"
             },
             "keyword": "And "
           }
@@ -255,6 +131,6 @@
     "description": "",
     "id": "login-html-rendering",
     "keyword": "Feature",
-    "uri": "src/test/resources/com/realpage/components/AALogin/aalogin.feature"
+    "uri": "src/test/resources/com/realpage/components/MEDSLogin/medslogin.feature"
   }
 ]
