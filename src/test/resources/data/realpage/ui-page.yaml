@@ -10,6 +10,7 @@ sat: !!com.realpage.core.page.UIPage
   UIPages:
     Domain: https://www.stage.google.com/
     GooglePage: https://www.google.com/
+    MEDSLoginPage: https://sat-rpcc.realpage.com/Maintenance/Login.aspx?ReturnUrl
 production: !!com.realpage.core.page.UIPage
   UIPages:
     Domain: https://www.google.com/
